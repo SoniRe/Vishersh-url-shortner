@@ -1,3 +1,8 @@
+@font-face {
+  font-family: gilroy;
+  src: url(./Gilroy-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -69,20 +74,31 @@ body {
 
 input {
   padding: 1vw 3vw 1vw 0.4vw;
-  margin-bottom: 2vw;
+  /* margin-bottom: 2vw; */
   border-radius: 5px;
   outline: none;
   border: none;
   border: 1px solid;
 }
 
+#left #part1 {
+  display: flex;
+}
+
+#left #part2 {
+  display: flex;
+}
+
 #left button {
+  cursor: pointer;
   border: 1px solid black;
   padding: 5px 20px;
   font-size: 20px;
+  font-weight: 500;
   background-color: #ff7eb4;
   border-radius: 5px;
   outline: none;
+  margin-left: 1vw;
 }
 
 #overlay {
